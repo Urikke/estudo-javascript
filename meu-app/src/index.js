@@ -8,13 +8,15 @@ import App5 from './Components/App5';
 import Lista from './Components/Lista';
 import {Lista2, Item} from './Components/Lista2';
 import Formulario from './Components/Formulario';
+import Hello from './Components/Hello';
+import AppFuncional from './Components/AppFuncional';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Formulario>
+    <AppFuncional>
       
-    </Formulario>
+    </AppFuncional>
   </React.StrictMode>,
   document.getElementById('root')
 );
